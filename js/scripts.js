@@ -3,15 +3,15 @@ $(document).ready(function() {
      var blanks = ["person1", "person2", "animal", "exclamation", "verb","noun"]
 
      blanks.forEach(function(){
-       var userInput = $("input#" + blank).val();
-       $("," +blank).text(userInput);
+       var userInput = $("input#" + blanks).val();
+       $("," +blanks).text(userInput);
      });
      $("#story").show();
 
      event.preventDefault();
     });
   });
-
+  
       //var person1Input = $("input#person1").val();
       //var person2Input = $("input#person2").val();
       //var animalInput = $("input#animal").val();

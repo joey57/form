@@ -7,7 +7,7 @@ $(document).ready(function() {
        $("." +blank).text(userInput);
      });
      $("#story").show();
-
+     
      event.preventDefault();
     });
   });
